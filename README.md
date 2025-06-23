@@ -18,7 +18,7 @@ C++ 기반으로 제작된 2D 게임 엔진입니다. Unity의 핵심 구조를 
 - **언어**: C++11
 - **기술 스택**: SFML, Box2D, ImGui, EnTT, nlohmann/json, Premake5, spdlog
 - **툴**: Visual Studio 2022, Fork, GitBash, BeyondCompare, Jira
-- **특징**: ECS 구조, 커스텀 로그 시스템, Sprite 에디터 내장  
+- **특징**: ECS 구조, 커스텀 로그 시스템, Sprite 에디터 내장    
 
 
 
@@ -33,7 +33,7 @@ Unity 기반 2D 방치형 게임으로, 정식 출시를 목표로 개발된 팀
 - **역할**: 게임 시스템 전반 / 전투 시스템 / 스킬 모듈 / 리소스 관리 / 저장 시스템
 - **기술스택**: Addressables, ScriptableObject, ShaderGraph, Newtonsoft.Json, LogCat
 - **툴**: Visual Studio 2022, AmazonS3, Firebase, Notion, Fork, BeyondCompare, GitBash, Discord
-- **특징**: Addressables 기반 원격 리소스 로딩, 인터페이스 중심 설계  
+- **특징**: Addressables 기반 원격 리소스 로딩, 인터페이스 중심 설계    
 
 ---
 
