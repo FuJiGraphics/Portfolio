@@ -7,26 +7,31 @@
 
 ## 주요 프로젝트
 
-### 1. [Vega Engine](https://github.com/FuJiGraphics/VegaEngine.ver2.git)
+### 1.Vega Engine
 C++ 기반으로 제작된 2D 게임 엔진입니다. Unity의 핵심 구조를 분석하여 기능적으로 모방하였습니다.
 
-- **시연영상**: [YouTube 링크](https://youtu.be/znGyzn23iWI)
+- **시연영상**: https://youtu.be/znGyzn23iWI (플래피버드를 제작하는 과정을 시연하였습니다)
+- **깃허브**: https://github.com/FuJiGraphics/VegaEngine.ver2.git
 - **언어**: C++11
 - **기술 스택**: SFML, Box2D, ImGui, EnTT, nlohmann/json
 - **특징**: ECS 구조, 커스텀 로그 시스템, Sprite 에디터 내장
 
-### 2. [Sky Dragon Hunter](https://github.com/FuJiGraphics/SkyDragonHunter.git)
+### 2. Sky Dragon Hunter
 Unity 기반 2D 방치형 게임으로, 정식 출시를 목표로 개발된 팀 프로젝트입니다.  
 기획, 아트와 협업하여 실제 유저 환경을 고려한 콘텐츠를 제작했습니다.
 
-- **시연영상**: [YouTube 링크](https://youtu.be/TrX15abwHQg?feature=shared)
+- **시연영상**: https://youtu.be/TrX15abwHQg?feature=shared
+- **깃허브**: https://github.com/FuJiGraphics/SkyDragonHunter.git
+- **노션**: https://www.notion.so/1fa34146edba80cb8a5eebf5f23a23b8?source=copy_link
 - **플랫폼**: Unity(2022.3.60f1), C# 8.0
-- **역할**: 전투 시스템 / 스킬 모듈 / 리소스 관리 / 저장 시스템
+- **역할**: 게임 시스템 전반 / 전투 시스템 / 스킬 모듈 / 리소스 관리 / 저장 시스템
+- **기술스택**: Addressables, ScriptableObject, ShaderGraph, Newtonsoft.Json, LogCat
+- **툴**: AmazonS3, Firebase, Notion, Fork, BeyondCompare, Git Bash
 - **특징**: Addressables 기반 원격 리소스 로딩, 인터페이스 중심 설계
 
 ---
 
-## 기술 스택
+## 기술 스택 정리
 
 - **언어**: C#, C++, Python
 - **엔진**: Unity, VegaEngine(자체 개발)
