@@ -6,7 +6,7 @@
 ## 개발자 소개
 - **이름**: 최철진 (CHEOLJIN CHOI)
 - **이메일**: chlcjfwls1@naver.com
-- **블로그**: https://sksnxjs.tistory.com (티스토리)
+- **블로그**: https://sksnxjs.tistory.com (티스토리)<br><br>
 
 ## 주요 프로젝트
 
