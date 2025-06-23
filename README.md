@@ -19,7 +19,7 @@ C++ 기반으로 제작된 2D 게임 엔진입니다. Unity의 핵심 구조를 
 - **시연영상**: https://youtu.be/znGyzn23iWI (플래피버드를 제작하는 과정을 시연하였습니다)
 - **기술문서**: https://github.com/FuJiGraphics/Portfolio/blob/master/3_TechDocs/1_VegaEngine_Tech.pdf
 - **깃허브**: https://github.com/FuJiGraphics/VegaEngine.ver2.git
-- **언어**: C++11
+- **언어**: C++11, Lua
 - **기술 스택**: SFML, Box2D, ImGui, EnTT, nlohmann/json, Premake5, spdlog
 - **툴**: Visual Studio 2022, Fork, GitBash, BeyondCompare, Jira
 - **특징**: UI/UX를 활용한 게임 개발, ECS 구조, 커스텀 로그 시스템, Sprite 에디터 내장<br><br>
