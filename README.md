@@ -12,7 +12,7 @@
 
 ## 주요 프로젝트
 
-### 1.Vega Engine
+### 1. Vega Engine
 C++ 기반으로 제작된 2D 게임 엔진입니다. Unity의 핵심 구조를 분석하여 기능적으로 모방하였습니다.
 
 - **시연영상**: https://youtu.be/znGyzn23iWI (플래피버드를 제작하는 과정을 시연하였습니다)
@@ -21,6 +21,8 @@ C++ 기반으로 제작된 2D 게임 엔진입니다. Unity의 핵심 구조를 
 - **기술 스택**: SFML, Box2D, ImGui, EnTT, nlohmann/json, Premake5, spdlog
 - **툴**: Visual Studio 2022, Fork, GitBash, BeyondCompare, Jira
 - **특징**: ECS 구조, 커스텀 로그 시스템, Sprite 에디터 내장
+
+--
 
 ### 2. Sky Dragon Hunter
 Unity 기반 2D 방치형 게임으로, 정식 출시를 목표로 개발된 팀 프로젝트입니다.  
