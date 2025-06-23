@@ -16,7 +16,7 @@
 ### 1. Vega Engine
 C++ 기반으로 제작된 2D 게임 엔진입니다. Unity의 핵심 구조를 분석하여 기능적으로 모방하였습니다.
 
-- **시연영상**: https://youtu.be/znGyzn23iWI (플래피버드를 제작하는 과정을 시연하였습니다)
+- **시연영상**: https://youtu.be/znGyzn23iWI **(엔진을 사용해 플래피버드 개발 과정을 시연하였습니다)**
 - **기술문서**: https://github.com/FuJiGraphics/Portfolio/blob/master/3_TechDocs/1_VegaEngine_Tech.pdf
 - **소스코드**: https://github.com/FuJiGraphics/Portfolio/tree/master/1_VegaEngine
 - **깃허브**: https://github.com/FuJiGraphics/VegaEngine.ver2.git
