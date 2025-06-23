@@ -29,8 +29,8 @@ Unity 기반 2D 방치형 게임으로, 정식 출시를 목표로 개발된 팀
 기획, 아트와 협업하여 실제 유저 환경을 고려한 콘텐츠를 제작했습니다.
 
 - **시연영상**: https://youtu.be/TrX15abwHQg?feature=shared
+- **협업페이지**: https://www.notion.so/1fa34146edba80cb8a5eebf5f23a23b8?source=copy_link
 - **깃허브**: https://github.com/FuJiGraphics/SkyDragonHunter.git
-- **노션**: https://www.notion.so/1fa34146edba80cb8a5eebf5f23a23b8?source=copy_link
 - **플랫폼**: Unity(2022.3.60f1), C# 8.0
 - **역할**: 게임 시스템 전반 / 전투 시스템 / 스킬 모듈 / 리소스 관리 / 저장 시스템
 - **기술스택**: Addressables, ScriptableObject, ShaderGraph, Newtonsoft.Json, LogCat
