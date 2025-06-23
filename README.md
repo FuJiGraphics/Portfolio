@@ -4,9 +4,9 @@
 직접 개발한 게임, 엔진, 툴, 시스템 등을 이곳에 정리하였습니다.'
 
 ## 개발자 소개
-이름: 최철진 (Choi CheolJin)
-이메일: chlcjfwls1@naver.com
-블로그: https://sksnxjs.tistory.com (티스토리)
+- **이름**: 최철진 (CHEOLJIN CHOI)
+- **이메일**: chlcjfwls1@naver.com
+- **블로그**: https://sksnxjs.tistory.com (티스토리)
 
 ---
 
