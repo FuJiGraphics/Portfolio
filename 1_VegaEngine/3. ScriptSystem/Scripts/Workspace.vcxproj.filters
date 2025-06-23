@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Map">
+      <UniqueIdentifier>{6307880B-CF10-887C-588C-9E7CC494937C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{724E55CA-5EF0-7FA0-47AB-93F433EC06F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Portal">
+      <UniqueIdentifier>{97D494CA-8376-BFA0-6C31-D3F4587246F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skill">
+      <UniqueIdentifier>{846B190E-F07F-41BF-B901-E51E25D53DF0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spawn">
+      <UniqueIdentifier>{CE081C0E-3A1D-44BF-039F-E71E6F7240F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Title">
+      <UniqueIdentifier>{079A2A0E-73AE-52BF-3C30-F61EA8034FF0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{83755900-6F01-880B-D8AF-880BC45A880B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Slot">
+      <UniqueIdentifier>{B43CA040-201C-1FDC-2934-AAB29592853D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{F68B420E-62A0-6ABF-2B22-0E1F97F566F0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AttachScripts.h" />
+    <ClInclude Include="Balrog.h" />
+    <ClInclude Include="BalrogStatus.hpp" />
+    <ClInclude Include="CallbackComponent.h" />
+    <ClInclude Include="Camera.hpp" />
+    <ClInclude Include="FSM.h" />
+    <ClInclude Include="Fireboar.h" />
+    <ClInclude Include="Ironhog.h" />
+    <ClInclude Include="Map\AmherstBoss.hpp">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\AmherstHunt.hpp">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\AmherstTown.hpp">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\MapComponent.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Mushmom.h" />
+    <ClInclude Include="Player\Ghost.hpp">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Player\Player.hpp">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Player\PlayerDefault.hpp">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Player\PlayerStatus.hpp">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Player\SaveData.hpp">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Player\Tomb.hpp">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Portal\Portal1L_Boss.hpp">
+      <Filter>Portal</Filter>
+    </ClInclude>
+    <ClInclude Include="Portal\Portal1R.hpp">
+      <Filter>Portal</Filter>
+    </ClInclude>
+    <ClInclude Include="Portal\Portal1_2Left.hpp">
+      <Filter>Portal</Filter>
+    </ClInclude>
+    <ClInclude Include="Portal\PortalComponent.hpp">
+      <Filter>Portal</Filter>
+    </ClInclude>
+    <ClInclude Include="Portal\Potal1R_hunt.hpp">
+      <Filter>Portal</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceMgr.h" />
+    <ClInclude Include="RibbonPig.h" />
+    <ClInclude Include="Skill\BasicAttack.hpp">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill\PowerStrike.hpp">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill\SkillComponent.hpp">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Snail.h" />
+    <ClInclude Include="SoundMgr.h" />
+    <ClInclude Include="Spawn\SpawnArea.hpp">
+      <Filter>Spawn</Filter>
+    </ClInclude>
+    <ClInclude Include="Spawn\SpawnB.hpp">
+      <Filter>Spawn</Filter>
+    </ClInclude>
+    <ClInclude Include="Spawn\SpawnBoss.hpp">
+      <Filter>Spawn</Filter>
+    </ClInclude>
+    <ClInclude Include="Spoa.h" />
+    <ClInclude Include="Stat.hpp" />
+    <ClInclude Include="Stump.h" />
+    <ClInclude Include="Title\Char1.hpp">
+      <Filter>Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Title\FrameComponent.h">
+      <Filter>Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Title\GameStartButton.hpp">
+      <Filter>Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Title\InfoComponent.h">
+      <Filter>Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Title\LoginBox.hpp">
+      <Filter>Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Title\SelectChar1.hpp">
+      <Filter>Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Title\SelectCharInfo.hpp">
+      <Filter>Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Title\TitleFrame.hpp">
+      <Filter>Title</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\BoundComponent.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\CashShop.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Fade.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\FadeComponent.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\HPGradation.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\SkillBound1.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\SkillBound4.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\SkillButton.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\SkillButtonComponent.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\SkillUI.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\SkillWindow.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\SkillWindowExit.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Slot\SlotB1.hpp">
+      <Filter>UI\Slot</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Slot\SlotB2.hpp">
+      <Filter>UI\Slot</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Slot\SlotB3.hpp">
+      <Filter>UI\Slot</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Slot\SlotB4.hpp">
+      <Filter>UI\Slot</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Slot\SlotComponent.h">
+      <Filter>UI\Slot</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Slot\SlotT1.hpp">
+      <Filter>UI\Slot</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Slot\SlotT2.hpp">
+      <Filter>UI\Slot</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Slot\SlotT3.hpp">
+      <Filter>UI\Slot</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Slot\SlotT4.hpp">
+      <Filter>UI\Slot</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\StatUI.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\StatWindow.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\StatWindowExit.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UI.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Timer.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

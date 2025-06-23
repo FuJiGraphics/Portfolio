@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F45E5942-60C9-0DB9-A907-BF5E15B1EB0D}</ProjectGuid>
+    <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Workspace</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\..\Build\bin\Debug-windows-x86_64\Workspace\</OutDir>
+    <IntDir>..\..\Build\bin-int\Debug-windows-x86_64\Workspace\</IntDir>
+    <TargetName>Workspace</TargetName>
+    <TargetExt>.exe</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\Build\bin\Release-windows-x86_64\Workspace\</OutDir>
+    <IntDir>..\..\Build\bin-int\Release-windows-x86_64\Workspace\</IntDir>
+    <TargetName>Workspace</TargetName>
+    <TargetExt>.exe</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>VG_PLATFORM_WINDOWS;VG_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.;..\..\VegaEngine2\VegaEngine2\src;..\..\Vendor\SFML-2.6.1\include;..\..\Vendor\spdlog\include;..\..\Vendor\ImGui;..\..\Vendor\Entt\include;..\..\Vendor\Box2D\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <ExternalWarningLevel>Level3</ExternalWarningLevel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>VegaEngine2.lib;sfml-audio.lib;sfml-graphics.lib;sfml-main.lib;sfml-network.lib;sfml-system.lib;sfml-window.lib;ImGui.lib;opengl32.lib;box2d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\Vendor\VegaEngine2-1.9.31\lib\Debug;..\..\Vendor\SFML-2.6.1\lib\Debug;..\..\Vendor\ImGui\lib\Debug;..\..\Vendor\Box2D\lib\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/IGNORE:4006 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>VG_PLATFORM_WINDOWS;VG_RELEASE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.;..\..\VegaEngine2\VegaEngine2\src;..\..\Vendor\SFML-2.6.1\include;..\..\Vendor\spdlog\include;..\..\Vendor\ImGui;..\..\Vendor\Entt\include;..\..\Vendor\Box2D\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <ExternalWarningLevel>Level3</ExternalWarningLevel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>VegaEngine2.lib;sfml-audio.lib;sfml-graphics.lib;sfml-main.lib;sfml-network.lib;sfml-system.lib;sfml-window.lib;ImGui.lib;opengl32.lib;box2d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\Vendor\VegaEngine2-1.9.31\lib\Release;..\..\Vendor\SFML-2.6.1\lib\Release;..\..\Vendor\ImGui\lib\Release;..\..\Vendor\Box2D\lib\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/IGNORE:4006 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AttachScripts.h" />
+    <ClInclude Include="Balrog.h" />
+    <ClInclude Include="BalrogStatus.hpp" />
+    <ClInclude Include="CallbackComponent.h" />
+    <ClInclude Include="Camera.hpp" />
+    <ClInclude Include="FSM.h" />
+    <ClInclude Include="Fireboar.h" />
+    <ClInclude Include="Ironhog.h" />
+    <ClInclude Include="Map\AmherstBoss.hpp" />
+    <ClInclude Include="Map\AmherstHunt.hpp" />
+    <ClInclude Include="Map\AmherstTown.hpp" />
+    <ClInclude Include="Map\MapComponent.h" />
+    <ClInclude Include="Mushmom.h" />
+    <ClInclude Include="Player\Ghost.hpp" />
+    <ClInclude Include="Player\Player.hpp" />
+    <ClInclude Include="Player\PlayerDefault.hpp" />
+    <ClInclude Include="Player\PlayerStatus.hpp" />
+    <ClInclude Include="Player\SaveData.hpp" />
+    <ClInclude Include="Player\Tomb.hpp" />
+    <ClInclude Include="Portal\Portal1L_Boss.hpp" />
+    <ClInclude Include="Portal\Portal1R.hpp" />
+    <ClInclude Include="Portal\Portal1_2Left.hpp" />
+    <ClInclude Include="Portal\PortalComponent.hpp" />
+    <ClInclude Include="Portal\Potal1R_hunt.hpp" />
+    <ClInclude Include="ResourceMgr.h" />
+    <ClInclude Include="RibbonPig.h" />
+    <ClInclude Include="Skill\BasicAttack.hpp" />
+    <ClInclude Include="Skill\PowerStrike.hpp" />
+    <ClInclude Include="Skill\SkillComponent.hpp" />
+    <ClInclude Include="Snail.h" />
+    <ClInclude Include="SoundMgr.h" />
+    <ClInclude Include="Spawn\SpawnArea.hpp" />
+    <ClInclude Include="Spawn\SpawnB.hpp" />
+    <ClInclude Include="Spawn\SpawnBoss.hpp" />
+    <ClInclude Include="Spoa.h" />
+    <ClInclude Include="Stat.hpp" />
+    <ClInclude Include="Stump.h" />
+    <ClInclude Include="Title\Char1.hpp" />
+    <ClInclude Include="Title\FrameComponent.h" />
+    <ClInclude Include="Title\GameStartButton.hpp" />
+    <ClInclude Include="Title\InfoComponent.h" />
+    <ClInclude Include="Title\LoginBox.hpp" />
+    <ClInclude Include="Title\SelectChar1.hpp" />
+    <ClInclude Include="Title\SelectCharInfo.hpp" />
+    <ClInclude Include="Title\TitleFrame.hpp" />
+    <ClInclude Include="UI\BoundComponent.hpp" />
+    <ClInclude Include="UI\CashShop.hpp" />
+    <ClInclude Include="UI\Fade.hpp" />
+    <ClInclude Include="UI\FadeComponent.h" />
+    <ClInclude Include="UI\HPGradation.hpp" />
+    <ClInclude Include="UI\SkillBound1.hpp" />
+    <ClInclude Include="UI\SkillBound4.hpp" />
+    <ClInclude Include="UI\SkillButton.hpp" />
+    <ClInclude Include="UI\SkillButtonComponent.h" />
+    <ClInclude Include="UI\SkillUI.hpp" />
+    <ClInclude Include="UI\SkillWindow.hpp" />
+    <ClInclude Include="UI\SkillWindowExit.hpp" />
+    <ClInclude Include="UI\Slot\SlotB1.hpp" />
+    <ClInclude Include="UI\Slot\SlotB2.hpp" />
+    <ClInclude Include="UI\Slot\SlotB3.hpp" />
+    <ClInclude Include="UI\Slot\SlotB4.hpp" />
+    <ClInclude Include="UI\Slot\SlotComponent.h" />
+    <ClInclude Include="UI\Slot\SlotT1.hpp" />
+    <ClInclude Include="UI\Slot\SlotT2.hpp" />
+    <ClInclude Include="UI\Slot\SlotT3.hpp" />
+    <ClInclude Include="UI\Slot\SlotT4.hpp" />
+    <ClInclude Include="UI\StatUI.hpp" />
+    <ClInclude Include="UI\StatWindow.hpp" />
+    <ClInclude Include="UI\StatWindowExit.hpp" />
+    <ClInclude Include="UI\UI.hpp" />
+    <ClInclude Include="Utils\Timer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\VegaEngine2\VegaEngine2\VegaEngine2.vcxproj">
+      <Project>{70344A7B-DCE9-C270-65DE-BC47D192B974}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
